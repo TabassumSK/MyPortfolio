@@ -24,6 +24,18 @@ export const C = {
       github: "https://github.com/TabassumSK/StayHub", demo: "stayhub-h65g.onrender.com"
     },
     {
+      title: "StayHub", cat: "Property rental and booking platform", m: 1,
+      cover: "/StayHub.png",
+      desc: "A full-stack MERN platform to discover, list and book rental properties, with secure sign-in, online Razorpay payments, booking receipts and map-based browsing.",
+      pts: [
+          "React.js frontend with Express.js REST APIs and CRUD for listings and reviews",
+          "Booking flow with Razorpay payment integration and booking receipts",
+          "Authentication with Passport.js and Joi validation",
+          "Cloudinary image uploads and Mapbox maps"],
+      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap", "Passport.js", "Razorpay", "Cloudinary", "Mapbox"],
+      github: "https://github.com/TabassumSK/StayHub", demo: "stayhub-h65g.onrender.com"
+    },
+    {
       title: "PulseAI", cat: "Social media sentiment analysis platform", m: 2,
       cover:"/PulseAi.png",
       desc: "A web app that classifies sentiment from social media and news data and shows the results on interactive dashboards.",
