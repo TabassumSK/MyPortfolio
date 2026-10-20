@@ -88,7 +88,7 @@ h2 {
 
 .mono {
     font-family: var(--mono);
-    font-size: .82rem;
+    font-size: 1rem;
     color: var(--mut)
 }
 
@@ -215,7 +215,7 @@ nav {
     min-height: 100svh;
     display: flex;
     align-items: center;
-    padding: 7rem 0 4rem;
+    padding: 5rem 0 4rem;
     position: relative;
     overflow: hidden
 }
@@ -296,7 +296,7 @@ h1 {
 .btns {
     display: flex;
     flex-wrap: wrap;
-    gap: .75rem;
+    gap: 1.5rem;
     margin-bottom: 2rem
 }
 
@@ -311,7 +311,7 @@ h1 {
     font-size: .98rem;
     transition: transform .15s, background .2s, border-color .2s;
     cursor: pointer;
-    background: transparent;
+    background-color: transparent;
     color: var(--tx);
     font-family: inherit
 }
@@ -341,7 +341,7 @@ h1 {
 }
 
 .soc a {
-    color: var(--mut);
+    color: var(--tx);
     display: inline-flex;
     align-items: center;
     gap: .4rem;
@@ -507,7 +507,7 @@ svg.i {
     border-radius: 18px;
     overflow: hidden;
     background: var(--bg2);
-    margin-bottom: 3.5rem;
+    margin-bottom: 6rem;
     transition: border-color .3s, transform .3s
 }
 
@@ -565,7 +565,6 @@ svg.i {
 .pl {
     display: flex;
     gap: 1.2rem;
-    margin-top: 1.4rem;
     font-weight: 600;
     font-size: .95rem
 }
@@ -1026,7 +1025,189 @@ footer {
     resize: vertical
 }
 
-.ab{max-width:44rem}
+.ab {
+    max-width: 44rem
+}
 
-.pv:has(.cv){padding:0}
-.cv{width:100%;height:100%;object-fit:cover;display:block}
+.pv:has(.cv) {
+    padding: 0
+}
+
+.cv {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block
+}
+
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 3rem;
+    align-items: start
+}
+
+@media(max-width:800px) {
+    .two {
+        grid-template-columns: 1fr
+    }
+}
+
+h2.lbl {
+    font: 500 .85rem var(--mono);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--mut);
+    margin-bottom: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+h2.lbl::after {
+    content: "";
+    height: 1px;
+    background: var(--line)
+}
+
+h2.lbl {
+    max-width: 30rem
+}
+
+h2.lbl::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--line)
+}
+
+.about2 p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: var(--mut);
+    margin: 0;
+    max-width: 40rem
+}
+
+.sk2 {
+    display: grid
+}
+
+.skr {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 1rem;
+    padding: 1.1rem 0;
+    border-top: 1px solid var(--line);
+    align-items: start
+}
+
+.skr:last-child {
+    border-bottom: 1px solid var(--line)
+}
+
+.skr h3 {
+    font: 500 .85rem var(--mono);
+    color: var(--mut);
+    letter-spacing: 0;
+    padding-top: .45rem
+}
+
+.skr .tags {
+    margin: 0
+}
+
+@media(max-width:560px) {
+    .skr {
+        grid-template-columns: 1fr;
+        gap: .3rem
+    }
+}
+
+#about-id {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.ab2 {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    gap: 3rem;
+    align-items: stretch
+}
+
+.ab2 .mono {
+    display: block;
+    margin-bottom: .8rem;
+    line-height: 1.4
+}
+
+/* both columns: label on top, then a box that fills the remaining height */
+.about2,
+.str {
+    display: flex;
+    flex-direction: column
+}
+
+/* left: paragraph gets the same top and bottom lines as the list */
+.about2 p {
+    flex: 1;
+    margin: 0;
+    max-width: none;
+    padding: .85rem 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--mut);
+}
+
+/* right: list stretches to the same height, rows share the space equally */
+.str ul {
+    flex: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-rows: 1fr
+}
+
+.str li {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    padding: .6rem 0;
+    border-top: 1px solid var(--line);
+    font-weight: 600
+}
+
+.str li:first-child {
+    border-top: 0
+}
+
+/* the top line comes from the box below */
+.str ul {
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line)
+}
+
+.str li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--ac)
+}
+
+.str li:nth-child(even)::before {
+    background: var(--ac2)
+}
+
+@media(max-width:800px) {
+    .ab2 {
+        grid-template-columns: 1fr
+    }
+}
+
+/* h2.nol::after{display:none} */

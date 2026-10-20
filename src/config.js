@@ -1,18 +1,19 @@
 /* ============ EDIT YOUR DETAILS HERE ============ */
 export const C = {
   name: "Tabassum Shaikh",
-  photo: "",  // put your image in the public folder, e.g. "/photo.jpg"                             // your photo: a file path like "photo.jpg" next to this file, or a full image link. Leave empty to show the icon
-  email: "abc@gmail.com",
+  photo: "/astro_profile.jpg",  // put your image in the public folder, e.g. "/photo.jpg"                             // your photo: a file path like "photo.jpg" next to this file, or a full image link. Leave empty to show the icon
+  email: "tabassumsk720@gmail.com",
   github: "https://github.com/TabassumSK",
   resume: "https://drive.google.com/file/d/1FCrLGeUI5_vH6_Sf-C0E0hvVLKITt8IH/view?usp=sharing",
-  whatsapp: "xxx",  // your number with country code, digits only, e.g. "919876543210"; the WhatsApp button appears when set
+  whatsapp: "9579848887",  // your number with country code, digits only, e.g. "919876543210"; the WhatsApp button appears when set
   formEndpoint: "", // optional: paste a Formspree or Web3Forms URL to receive messages straight to your inbox (works on your own hosting)
   headline: "Turning ideas into working software.", // main hero heading, change it here
   intro: "Software developer focused on building modern web applications, solving problems, and turning ideas into reliable products.",
   availability: "Open to Full Stack Developer roles",
   interests: ["Full Stack Development", "React & Node.js", "Software Engineering"],
   about: "Hello, I am Full-stack developer who turns Ideas into products people actually use. I’ve gone from a college idea to an industry-sponsored platform with a published research paper, and I build every product to work reliably, scale, and make sense to the person using it. I’m looking for a team that moves fast and expects ownership.",
-  skills: { "Frontend": ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap"], "Backend": ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Passport.js"], "Databases": ["MongoDB", "MySQL", "PostgreSQL"], "Languages and tools": ["Java", "Python", "C++", "Git", "GitHub", "Postman"] },
+  strengths:["Quick learner","Adaptable","Problem solver","Team player"],
+  skills: { "Frontend": ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap"], "Backend": ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Passport.js"], "Databases": ["MongoDB", "MySQL", "PostgreSQL"], "Languages and tools": ["Java", "Python", "TypeScript", "Git", "GitHub", "Postman"] },
   projects: [
     {
       title: "StayHub", cat: "Property rental and management platform", m: 1,
