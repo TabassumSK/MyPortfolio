@@ -4,7 +4,7 @@ export const C = {
   photo: "/astro_profile.jpg",  // put your image in the public folder, e.g. "/photo.jpg"                             // your photo: a file path like "photo.jpg" next to this file, or a full image link. Leave empty to show the icon
   email: "tabassumsk720@gmail.com",
   github: "https://github.com/TabassumSK",
-  resume: "https://drive.google.com/file/d/1FCrLGeUI5_vH6_Sf-C0E0hvVLKITt8IH/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1v8P5SobFjczOlhxH8Yl5o-wMuytjXzc9/view?usp=sharing",
   whatsapp: "9579848887",  // your number with country code, digits only, e.g. "919876543210"; the WhatsApp button appears when set
   formEndpoint: "", // optional: paste a Formspree or Web3Forms URL to receive messages straight to your inbox (works on your own hosting)
   headline: "Turning ideas into working software.", // main hero heading, change it here
