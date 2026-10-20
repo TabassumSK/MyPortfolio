@@ -18,20 +18,8 @@ export const C = {
     {
       title: "StayHub", cat: "Property rental and management platform", m: 1,
       cover:"/StayHub.png",
-      desc: "A full-stack platform to discover, list and manage rental properties with secure sign-in and map-based browsing.",
-      pts: ["REST APIs and CRUD for listings and reviews", "Authentication with Passport.js", "Cloudinary image uploads and Mapbox maps"],
-      tags: ["Node.js", "Express.js", "MongoDB", "EJS", "Bootstrap", "Passport.js", "Cloudinary", "Mapbox"],
-      github: "https://github.com/TabassumSK/StayHub", demo: "stayhub-h65g.onrender.com"
-    },
-    {
-      title: "StayHub", cat: "Property rental and booking platform", m: 1,
-      cover: "/StayHub.png",
       desc: "A full-stack MERN platform to discover, list and book rental properties, with secure sign-in, online Razorpay payments, booking receipts and map-based browsing.",
-      pts: [
-          "React.js frontend with Express.js REST APIs and CRUD for listings and reviews",
-          "Booking flow with Razorpay payment integration and booking receipts",
-          "Authentication with Passport.js and Joi validation",
-          "Cloudinary image uploads and Mapbox maps"],
+      pts: ["React.js frontend with Express.js REST APIs and CRUD for listings and reviews", "Booking flow with Razorpay payment integration and booking receipts", "Authentication with Passport.js and Joi validation", "Cloudinary image uploads and Mapbox maps"],
       tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap", "Passport.js", "Razorpay", "Cloudinary", "Mapbox"],
       github: "https://github.com/TabassumSK/StayHub", demo: "stayhub-h65g.onrender.com"
     },
