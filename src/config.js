@@ -12,36 +12,33 @@ export const C = {
   availability: "Open to Full Stack Developer roles",
   interests: ["Full Stack Development", "React & Node.js", "Software Engineering"],
   about: "Hello, I am Full-stack developer who turns Ideas into products people actually use. I’ve gone from a college idea to an industry-sponsored platform with a published research paper, and I build every product to work reliably, scale, and make sense to the person using it. I’m looking for a team that moves fast and expects ownership.",
-  strengths:["Quick learner","Adaptable","Problem solver","Team player"],
+  strengths: ["Quick learner", "Adaptable", "Problem solver", "Team player"],
   skills: { "Frontend": ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap"], "Backend": ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Passport.js"], "Databases": ["MongoDB", "MySQL", "PostgreSQL"], "Languages and tools": ["Java", "Python", "TypeScript", "Git", "GitHub", "Postman"] },
   projects: [
     {
-      title: "StayHub", cat: "Property rental and management platform", m: 1,
-      cover:"/st.png",
+      title: "StayHub", cat: "Property rental and booking platform", m: 1,
+      cover: "/StayHub.png",
       desc: "A full-stack MERN platform to discover, list and book rental properties, with secure sign-in, online Razorpay payments, booking receipts and map-based browsing.",
-      pts: ["React.js frontend with Express.js REST APIs and CRUD for listings and reviews", "Booking flow with Razorpay payment integration and booking receipts", "Authentication with Passport.js and Joi validation", "Integrated third-party APIs: Cloudinary for images, Mapbox for maps"],
+      pts: [
+        "React.js frontend with Express.js REST APIs and CRUD for listings and reviews",
+        "Booking flow with Razorpay payment integration and booking receipts",
+        "Authentication with Passport.js and Joi validation",
+        "Cloudinary image uploads and Mapbox maps"
+      ],
       tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap", "Passport.js", "Razorpay", "Cloudinary", "Mapbox"],
       github: "https://github.com/TabassumSK/StayHub", demo: "https://stayhub-h65g.onrender.com"
     },
     {
-      title: "PulseAI", cat: "Social media sentiment analysis platform", m: 2,
-      cover:"/PulseAi.png",
-      desc: "A web app that classifies sentiment from social media and news data and shows the results on interactive dashboards.",
-      pts: ["FastAPI backend using Hugging Face Transformers", "React dashboard with trends and PDF reports", "Analysis history stored in PostgreSQL"],
-      tags: ["React.js", "Python", "FastAPI", "PostgreSQL", "Hugging Face", "PyTorch"],
-      github: "https://github.com/TabassumSK/social-media-sentiment-analysis", demo: ""
-    },
-    {
       title: "Parental Legacy & Life Factors Calculator", cat: "Personalized Analysis Tool", m: 3,
-      cover:"/Legacy.png",
+      cover: "/Legacy.png",
       desc: "A responsive React app for date-based parental legacy analysis with interactive charts and report exports.",
       pts: ["Real-time birth date calculations with date validation", "Seven-factor comparison with interactive radar and donut charts", "Save readings locally and export reports as PDF or CSV"],
       tags: ["React 18", "vite", "Tailwind CSS", "Recharts", "jsPDF", "localStorage"],
-      github: "https://github.com/TabassumSK/parental-legacy-calculator", demo:"https://parental-legacy-calculator-kappa.vercel.app/"
+      github: "https://github.com/TabassumSK/parental-legacy-calculator", demo: "https://parental-legacy-calculator-kappa.vercel.app/"
     },
     {
       title: "NexWrite", cat: "AI-powered publishing platform", m: 1,
-      cover:"/BlogWeb.png",
+      cover: "/BlogWeb.png",
       desc: "A publishing platform with AI-assisted summaries and search, built to practise backend work and API integration.",
       pts: ["Gemini API for article summaries", "Express and MongoDB backend with server-rendered EJS views"],
       tags: ["Node.js", "Express.js", "MongoDB", "Gemini API", "EJS", "CSS"],
