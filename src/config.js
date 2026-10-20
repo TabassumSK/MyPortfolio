@@ -17,11 +17,11 @@ export const C = {
   projects: [
     {
       title: "StayHub", cat: "Property rental and management platform", m: 1,
-      cover:"/StayHub.png",
-      desc: "A full-stack platform to discover, list and manage rental properties with secure sign-in and map-based browsing.",
-      pts: ["REST APIs and CRUD for listings and reviews", "Authentication with Passport.js", "Cloudinary image uploads and Mapbox maps"],
-      tags: ["Node.js", "Express.js", "MongoDB", "EJS", "Bootstrap", "Passport.js", "Cloudinary", "Mapbox"],
-      github: "https://github.com/TabassumSK/StayHub", demo: "stayhub-h65g.onrender.com"
+      cover:"/st.png",
+      desc: "A full-stack MERN platform to discover, list and book rental properties, with secure sign-in, online Razorpay payments, booking receipts and map-based browsing.",
+      pts: ["React.js frontend with Express.js REST APIs and CRUD for listings and reviews", "Booking flow with Razorpay payment integration and booking receipts", "Authentication with Passport.js and Joi validation", "Integrated third-party APIs: Cloudinary for images, Mapbox for maps"],
+      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap", "Passport.js", "Razorpay", "Cloudinary", "Mapbox"],
+      github: "https://github.com/TabassumSK/StayHub", demo: "https://stayhub-h65g.onrender.com"
     },
     {
       title: "PulseAI", cat: "Social media sentiment analysis platform", m: 2,
@@ -45,7 +45,7 @@ export const C = {
       desc: "A publishing platform with AI-assisted summaries and search, built to practise backend work and API integration.",
       pts: ["Gemini API for article summaries", "Express and MongoDB backend with server-rendered EJS views"],
       tags: ["Node.js", "Express.js", "MongoDB", "Gemini API", "EJS", "CSS"],
-      github: "https://github.com/TabassumSK/Blog-Web", demo: "blog-web-1-iee6.onrender.com"
+      github: "https://github.com/TabassumSK/Blog-Web", demo: "https://blog-web-1-iee6.onrender.com"
     },],
   allProjects: "https://github.com/TabassumSK?tab=repositories",
   experience: [{ t: "Web Developer Intern", o: "ADM Welfare Society, Remote", d: "Jan 2025 - Jun 2025", pts: ["Developed responsive web pages using React.js, HTML5, CSS3, and JavaScript, ensuring consistent layouts across desktop and mobile devices.", "Built reusable UI components that reduced duplicate code and simplify development of new features across the team.", "Debugged and tested frontend features, resolving issues, and supported deployment using Git-based collaboration workflows."] }],
