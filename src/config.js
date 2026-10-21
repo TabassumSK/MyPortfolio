@@ -4,7 +4,7 @@ export const C = {
   photo: "/astro_profile.jpg",  // put your image in the public folder, e.g. "/photo.jpg"                             // your photo: a file path like "photo.jpg" next to this file, or a full image link. Leave empty to show the icon
   email: "tabassumsk720@gmail.com",
   github: "https://github.com/TabassumSK",
-  resume: "https://drive.google.com/file/d/1v8P5SobFjczOlhxH8Yl5o-wMuytjXzc9/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1HI8p5aV-aS1Kx7ZL8R3Ha3yJFsOwbuxw/view?usp=sharing",
   whatsapp: "9579848887",  // your number with country code, digits only, e.g. "919876543210"; the WhatsApp button appears when set
   formEndpoint: "", // optional: paste a Formspree or Web3Forms URL to receive messages straight to your inbox (works on your own hosting)
   headline: "Turning ideas into working software.", // main hero heading, change it here
@@ -13,7 +13,7 @@ export const C = {
   interests: ["Full Stack Development", "React & Node.js", "Software Engineering"],
   about: "Hello, I am Full-stack developer who turns Ideas into products people actually use. I’ve gone from a college idea to an industry-sponsored platform with a published research paper, and I build every product to work reliably, scale, and make sense to the person using it. I’m looking for a team that moves fast and expects ownership.",
   strengths: ["Quick learner", "Adaptable", "Problem solver", "Team player"],
-  skills: { "Frontend": ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap"], "Backend": ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Passport.js"], "Databases": ["MongoDB", "MySQL", "PostgreSQL"], "Languages and tools": ["Java", "Python", "TypeScript", "Git", "GitHub", "Postman"] },
+  skills: { "Frontend": ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap"], "Backend": ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Passport.js"], "Databases": ["MongoDB", "MySQL", "PostgreSQL"], "Languages and tools": ["Java", "Python", "TypeScript", "Git", "GitHub", "Postman", "Docker", "Pytest"] },
   projects: [
     {
       title: "StayHub", cat: "Property rental and booking platform", m: 1,
@@ -27,6 +27,14 @@ export const C = {
       ],
       tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap", "Passport.js", "Razorpay", "Cloudinary", "Mapbox"],
       github: "https://github.com/TabassumSK/StayHub", demo: "https://stayhub-h65g.onrender.com"
+    },
+    {
+      title: "PulseAI", cat: "Social media sentiment analysis platform", m: 2,
+      cover: "/PulseAi.png",
+      desc: "A web app that classifies sentiment from social media and news data and shows the results on interactive dashboards.",
+      pts: ["FastAPI backend using Hugging Face Transformers", "React dashboard with trends and PDF reports", "Analysis history stored in PostgreSQL"],
+      tags: ["React.js", "Python", "FastAPI", "PostgreSQL", "Hugging Face", "PyTorch", "Docker", "Pytest"],
+      github: "https://github.com/TabassumSK/social-media-sentiment-analysis", demo: ""
     },
     {
       title: "Parental Legacy & Life Factors Calculator", cat: "Personalized Analysis Tool", m: 3,
