@@ -87,7 +87,7 @@ function Hero() {
         <p className="lead in" style={d(0.28)}>{C.intro}</p>
         <Rotator />
         <div className="btns in" style={d(0.44)}>
-          {C.resume && <Ext className="btn" href={C.resume} icon="dl">Download resume</Ext>}
+          {/* {C.resume && <Ext className="btn" href={C.resume} icon="dl">Download resume</Ext>} */}
           <div className="soc in btn" style={d(0.52)}>
               <Ext href={C.github} icon="gh">GitHub</Ext>
           </div>
