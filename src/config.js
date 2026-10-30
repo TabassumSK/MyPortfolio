@@ -38,7 +38,7 @@ export const C = {
     },
     {
       title: "Wind Forecast Dashboard", cat: "Full-stack data analytics app", m: 1,
-      cover: "/WindDashboard.png",
+      cover: "/Wind_Forecast.png",
       desc: "A dashboard for a UK energy utility's day-ahead buying team. It shows the wind forecast that was actually available at decision time and quantifies its error, built on Elexon data.",
       pts: ["Python and pandas logic that picks the latest forecast published before the decision deadline, with London time zone handling", "FastAPI backend with MAE, RMSE, bias and P90/P95 buffer metrics, and a React and Recharts dashboard"],
       tags: ["Python", "FastAPI", "pandas", "React", "Recharts", "Docker", "pytest"],
